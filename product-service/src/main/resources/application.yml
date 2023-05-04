@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/product-service
+  application:
+    name: product-service
+  config:
+    import: "optional:configserver:http://localhost:8088"
